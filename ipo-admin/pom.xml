@@ -5,7 +5,7 @@
     <parent>
         <groupId>nl.ipo.cds.ipo</groupId>
         <artifactId>cds-ipo</artifactId>
-        <version>2.2</version>
+        <version>2.3-SNAPSHOT</version>
     </parent>
     <packaging>war</packaging>
 
@@ -13,7 +13,7 @@
         <dependency>
             <groupId>nl.ipo.cds.ipo</groupId>
             <artifactId>ipo-themes</artifactId>
-            <version>2.2</version>
+            <version>${project.version}</version>
             <type>pom</type>
         </dependency>
         <dependency>
@@ -22,6 +22,12 @@
             <version>${cds.version}</version>
             <classifier>prod</classifier>
             <type>war</type>
+        </dependency>
+         <dependency>
+            <groupId>nl.ipo.cds</groupId>
+            <artifactId>admin</artifactId>
+            <version>${cds.version}</version>
+            <type>pom</type>
         </dependency>
     </dependencies>
 
