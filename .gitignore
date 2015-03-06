@@ -1,0 +1,10 @@
+*.project
+*.classpath
+bin/
+target/
+.settings/
+
+#intellij articacts
+*.iml
+*.db
+deegree-webservices-vrn/.springBeans
